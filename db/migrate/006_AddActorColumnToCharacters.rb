@@ -1,4 +1,3 @@
-      t.integer :actor_id
 class CreateCharacters < ActiveRecord::Migration[5.1]
   def change
     add_column :characters, :actor_id :integer
